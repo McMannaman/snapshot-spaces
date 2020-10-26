@@ -1,0 +1,60 @@
+{
+  "token": "0x39eAE99E685906fF1C11A962a743440d0a1A6e09",
+  "name": "Holyheld",
+  "network": "1",
+  "symbol": "HOLY",
+  "skin": "holyheld",
+  "strategies": [
+    {
+      "name": "contract-call",
+      "params": {
+        "address": "0xb6c8e5f00117136571d260bfb1baff62ddfd9960",
+        "decimals": 18,
+        "symbol": "HOLY-ETH LP",
+        "methodABI": {
+          "constant": true,
+          "inputs": [
+            {
+              "internalType":"uint256",
+              "name":"",
+              "type":"uint256"
+            },
+            {
+              "internalType":"address",
+              "name":"",
+              "type":"address"
+            }
+          ],
+          "name":"userInfo",
+          "outputs": [
+            {
+              "internalType":"uint256",
+              "name":"amount",
+              "type":"uint256"
+            },
+            {
+              "internalType":"uint256",
+              "name":"rewardDebt",
+              "type":"uint256"
+            },
+            {
+              "internalType":"uint256",
+              "name":"stakedLPAmount",
+              "type":"uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability":"view",
+          "type":"function"
+        }
+      }
+    }
+  ],
+  "members": [
+    "0x1d883459BBC71042a9072f106427c4993De44794"
+  ],
+  "filters": {
+    "defaultTab": "core",
+    "minScore": 0
+  }
+}
