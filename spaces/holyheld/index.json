@@ -1,14 +1,14 @@
 {
-  "token": "0x39eAE99E685906fF1C11A962a743440d0a1A6e09",
+  "token": "0xb6c8e5F00117136571d260Bfb1BAfF62DDFd9960",
   "name": "Holyheld",
   "network": "1",
-  "symbol": "HOLY",
+  "symbol": "HOLY-ETH LP",
   "skin": "holyheld",
   "strategies": [
     {
       "name": "contract-call-holy",
       "params": {
-        "address": "0xb6c8e5f00117136571d260bfb1baff62ddfd9960",
+        "address": "0x5D33dE3E540b289f9340D059907ED648c9E7AaDD",
         "decimals": 18,
         "symbol": "HOLY-ETH LP",
         "args": ["9", "%{address}"], 
