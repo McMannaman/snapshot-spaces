@@ -6,7 +6,7 @@
   "skin": "holyheld",
   "strategies": [
     {
-      "name": "contract-call",
+      "name": "contract-call-holy",
       "params": {
         "address": "0xb6c8e5f00117136571d260bfb1baff62ddfd9960",
         "decimals": 18,
