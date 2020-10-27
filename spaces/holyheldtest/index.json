@@ -1,6 +1,6 @@
 {
   "token": "0x39eAE99E685906fF1C11A962a743440d0a1A6e09",
-  "name": "Holyheld",
+  "name": "HolyheldTest",
   "network": "1",
   "symbol": "HOLY",
   "skin": "holyheld",
@@ -8,10 +8,10 @@
     {
       "name": "contract-call",
       "params": {
-        "address": "0xb6c8e5f00117136571d260bfb1baff62ddfd9960",
+        "address": "0x2fDbAdf3C4D5A8666Bc06645B8358ab803996E28",
         "decimals": 18,
-        "symbol": "HOLY-ETH LP",
-        "args": ["9", "%{address}"], 
+        "symbol": "YFI-ETH LP",
+        "args": ["2", "%{address}"], 
         "methodABI": {
           "constant": true,
           "inputs": [
