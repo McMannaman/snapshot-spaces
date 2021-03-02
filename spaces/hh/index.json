@@ -1,0 +1,25 @@
+{
+  "token": "0x87b918e76c92818DB0c76a4E174447aeE6E6D23f",
+  "name": "HH (Holyheld)",
+  "network": "1",
+  "symbol": "HH-ETH LP",
+  "skin": "holyheld",
+  "strategies": [
+    {
+      "name": "erc20-balance-of",
+      "params": {
+        "address": "0x87b918e76c92818DB0c76a4E174447aeE6E6D23f",
+        "symbol": "HH-ETH LP",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+    "0x0285fc2BCF913213fC84bA11B2aDf5275A6330AA",
+    "0x1d883459BBC71042a9072f106427c4993De44794"
+  ],
+  "filters": {
+    "defaultTab": "core",
+    "minScore": 0
+  }
+}
